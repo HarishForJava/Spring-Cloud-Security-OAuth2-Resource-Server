@@ -1,0 +1,10 @@
+server:
+  port: 8887
+  servlet:
+    context-path: /resource
+  
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:8886/service/user
+      #user-info-uri: https://www.googleapis.com/userinfo/v2/me
